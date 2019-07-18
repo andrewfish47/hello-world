@@ -1,5 +1,5 @@
 # hello
-Whats up pussies,
+Whats up,
 
 this is my website
 
