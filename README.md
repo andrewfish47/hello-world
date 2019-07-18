@@ -1,8 +1,6 @@
-# hello-world
-First repository made
+# hello
+Whats up pussies,
 
-Hello,
-
-Testing branch feature and understanding how this works
+this is my website
 
 -Andrew
