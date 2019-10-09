@@ -1,0 +1,135 @@
+s<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+<style>
+body{
+width: 100vw;
+overflow-x: hidden;
+margin: 0;
+background-color: white;
+}
+.logo{
+  float: center;
+  text-align: center;
+  background-color: white;
+  color: black;
+  margin: 0;
+  height: 10vh;
+  border-left: 29vw;
+  border-right: 1vw;
+}
+.logoImg{
+  float: left;
+  width: 30vw;
+  background-color: gray;
+  color: black;
+  margin: 0;
+  height: 23vh;
+  z-index: 1;
+}
+.navbar{
+min-width: 100vw;
+background-color: lightblue;
+margin: 0;
+overflow: hidden;
+}
+.navbar a{
+float: left;
+padding: 15px 30px;
+color: white;
+font-size: 21px;
+text-decoration: none;
+text-align: center;
+}
+.dropdown{
+float: left;
+overflow: hidden;
+}
+.dropdown .dropbtn{
+font-size: 21px;
+border: none;
+outline: none;
+padding: 15px 30px;
+color: white;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+.navbar a:hover {
+background-color: gray;
+color: white;
+}
+.dropdown:hover .dropbtn{
+background-color: gray;
+}
+.dropdown-content{
+background-color: gray;
+min-width: 60vw;
+height: 300px;
+display: none;
+z-index: 1;
+position: absolute;
+}
+.dropdown:hover .dropdown-content{
+display: block;
+}
+
+.foot{
+text-align: center;
+width: 100vw;
+background-color: grey;
+margin-top: 1vh;
+}
+.firstBox{
+ width: 80vw;
+ height: 30vh;
+ border-style: solid;
+ border-color: black;
+ border-radius: 15px;
+margin: auto;
+margin-top: 2vh;
+}
+
+.contactbox{
+  width: 80vw;
+  height: 10vh;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 2vh;
+}
+
+</style>
+</head>
+<body>
+  <!--<div class="logoImg">Area for graphically designed logo</div>-->
+  <h1 class="logo">Vital Cleaning</h1>
+  <h2 class="logo">Call ###-###-#### Today!</h2>
+
+<div class="navbar">
+<a href="./index.html">Home</a>
+<a href="./Services.html">Services</a>
+<div class="dropdown">
+<button class="dropbtn">Request a Cleaning</button>
+<div class="dropdown-content">
+</div>
+</div>
+<a href="./Contact.html">Contact</a>
+<a href="./About.html">About</a>
+</div>
+<div class="contactbox">contact box, hours, etc.. the facebook logo, the google logo, and any other social media sites you would have. </div>
+<div class="firstBox"> first box with info about contacting for residential cleaning</div>
+<div class="firstBox"> second box with info about another type of cleaning and how to request for it </div>
+<div class="firstBox"> third box with a third type of cleaning service </div>
+<footer class="foot">
+<br>
+<br>
+This is the footer
+<br>
+<br>
+</footer>
+</body>
+</html>
